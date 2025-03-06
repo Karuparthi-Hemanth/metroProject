@@ -1,0 +1,87 @@
+.bookingpage{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    justify-content: space-around;
+    align-items: center;
+}
+.booking-container {
+    width: 500px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    background-color: #ccc;
+    
+}
+
+.booking-container .head1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.station-selectors {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.station-selectors .stationlabel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.station-selectors .stationselect {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: #ff4d4f;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.ticket-details {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.ticket-details h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.ticket-details p {
+    margin: 0.5rem 0;
+} 
